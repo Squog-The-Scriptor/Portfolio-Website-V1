@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Long</title>
+    <link rel = "stylesheet" href = "./resources/CSS/index.css"> <!--link rel = "stylesheet href = "file path">-->
+
+</head>
+
+
+<body class = "body">
+    <!--Navigation Bar-->
+    <nav class="nav-bar">
+        <ul class = "navbuttons">
+            <!--Link navbuttons to associated content areas on the website-->
+            <li><a href= "#news" style="text-decoration: none">The Gospel</a></li>
+            <li><a href= "#me" style="text-decoration: none">About Me</a></li>
+            <li><a href= "#linked" style="text-decoration: none">LinkedIn</a></li>
+            <li><a href= "#git" style="text-decoration: none">GitHub</a></li>
+            <li><a href= "#port" style="text-decoration: none">Portfolio</a></li>
+            <li><a href= "#healthy" style="text-decoration: none">Health/Fitness/Rehab</a></li>
+        </ul>
+    </nav>
+
+<!-- Banner Section -->
+    <div class="banner">
+        <h1 id="title"><p>Kevin Long</p></h1>
+        <img src = "./resources/images/Sotetseg.png" alt = "Sotetseg, The 4th Boss from the Theatre of Blood from OSRS" class ="sote">
+        <form action = "https://www.youtube.com/" method="get" target = "_blank">
+            <button type = "submit" class = "subscribe-button">Click Me to Go to Youtube!</button> 
+        </form>
+        <form action = "https://www.hopemarkham.ca/" method="get" target = "_blank">
+            <button class = "church-button">Link to Hope Bible Church!</button>
+        </form>
+        <form action = "https://www.amazon.ca/" method="get" target = "_blank">
+            <button class = "amazon-button">Link to Amazon!</button>
+        </form>
+            
+    </div>
+
+    <!--About Me Section-->
+    <h1 class ="aboutme" id = "me">About Me</h1>
+        <article>
+            <p id = "aboutp">Hello internet web-traveler! Thanks for visiting my personal website! 
+            I'm Kevin an aspiring software engineer, I'm currently a Registered Kinesiologist working at Physiotherapy clinic working to provide
+            the best care possible to patients with regards to administering therapeutic modalities, rehabiliative exercise instruction and supervision, movement and life skills education, 
+            and manual and stretching!
+            <br>
+            <br>
+            Along my journey in the healthcare field, I had the idea becoming a physiotherapist or physical therapist. However, I found my heart for it was not 100% there and I could not
+            commit myself to something that I was only partially interested in. The great stress and extra schooling needed, I deemed was not worth it for me. 
+            <br>
+            <br>
+            As of the end of April 2023, I began re-learning coding with the hopes of making a career change. I re-learned python for a month then have been learning and HTML and CSS after that. 
+            I will continue to learn more languages such as Javascript. I seek to become front-end developer and work towards becoming a full-stack engineer.
+            <br>
+            <br>
+            In my free time I enjoy working out, cooking, movies, board and card games, playing video games with friends. 
+            
+            </p>
+        </article>
+
+    <!--Gospel Section-->
+    <h1 class ="gospel" id ="news">The Gospel</h1>
+        <article>
+            <p id="newsp">I can confidently and proudly say I am Bible-believing Christian. I strive to love and serve God with my life and I also strive to love and serve others regardless of their
+            beliefs, background, struggles. For this is the heart of the Gospel of Jesus Christ. 
+
+            What is the Gospel you may ask? It simply means "Good News"!
+            <br>
+            <br>
+            In order understand this good news we much understand the bad news. The bad news is that humanity is broken and corrupted with evil or sinful. This began when God first created
+            Adam and Eve in the Garden of Eden. He told them not to eat of the fruit from the Tree of the Knowledge of Good and Evil; but they were tempted by Satan in the form of a snake
+            and the did the one thing God told them not. They disobeyed God and sin entered the world; along with death and much much suffering. 
+            <br>
+            <br>
+            Those who are with sin are due their wages, for the wages of sin is death. However, it is not simply a physical death but also a spiritual one; eternal separation from God in hell.
+            So the gospel is that Jesus Christ came down to Earth as fully God and fully man, he died for the sins of humanity (past, present, future) and then overcame death by rising again
+            3 days later! Those who believe in Jesus Christ and his finished work on the cross are gifted with eternal life and mending of the relationship with God that was broken in the time 
+            of the garden of Eden. 
+
+            We are not promised the next second, next minute, next hour, next day, next month, next year, and so on. So, I urge you consider this gospel and believe in Jesus Christ and his finished
+            work on the cross. 
+            <br>
+            <br>   
+            </p>
+        </article>
+    
+    <h1 class = "linkedin" id = "linked">LinkedIn</h1>
+        <form action = "https://www.linkedin.com/in/kevin-long-88576810b/" method="get" target = "_blank">
+            <button type = "submit" class = "linkedin-button">My LinkedIn!</button> 
+        </form>
+        
+
+    <h1 class = "github" id = "git">GitHub</h1>
+        <article>
+            <form action = "https://github.com/Squog-The-Scriptor" method="get" target = "_blank">
+                <button type = "submit" class = "github-button">My GitHub</button> 
+            </form>
+            <p id = "gitp">The link to my GitHub is below but is currently empty! Check back every so often for updates!</p>
+        
+        </article>  
+    
+    <h1 class = "portfolio" id = "port">Portfolio</h1>
+        <article>
+            <p id = "portp">Welcome my portfolio section! This section is currently blank, but I will have more projects added on as I complete them</p>
+        </article> 
+
+   <!--<h1 class = "health" id = healthy>Health, Fitness, & Rehab</h1>
+        <article>
+            <h2>Fitness and Health Industry Myths</h2>
+                <h3>1. Body Types</h3>
+                <h3>2."Toning" Muscles</h3>
+                    <p>Toning muscles is a lie.</p>
+                <h3>3."Best Exercises"</h3>
+
+            <h2>Posture</h2>
+                <p>Under Construction</p>
+
+            <h2>Weight Loss and Weight Loss Maintenance</h2>
+                <p>Under Construction</p>
+
+            <h2>Gaining Muscle</h2>
+                <p>Under Construction</p>   
+            
+        </article> -->
+    
+ <!--Footer Section-->
+<footer class = "footer" id = "foot">
+    <p>Thanks For Visiting My Website! <br> Contact Information Found Below:</p>
+    <ul>
+        <li>Email: kevinlong1234@gmail.com</li>
+    </ul>
+</body>
+</footer>
+
+</html>
