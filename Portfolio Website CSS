@@ -1,0 +1,261 @@
+.body {
+    background-color:#202020;
+    font-family: helvetica, sans-serif;
+}
+
+#title {
+    color: #dfa147;
+}
+
+.nav-bar {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    margin:0 20px;
+    text-align:center;
+    text-decoration: none; 
+
+   
+    
+}
+
+.nav-bar li {
+    border: 1px solid #4b3121;
+    margin: none;
+    background-color: black;
+    display:inline-block;
+    padding: 20px 50px;
+    text-align: left;
+    text-decoration: none; 
+    font-weight: bolder; 
+    
+    
+
+}
+
+
+.nav-bar li:hover {
+    border-color: #90c040;
+    color: black;
+    opacity: 0.6;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+    transition: opacity 0.15s, box-shadow 0.15s;
+    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #90c040;
+}
+
+.banner h1 {
+    padding-top: 100px;
+    text-align: center;
+    
+}
+
+.sote {
+    max-width: 500px;
+    max-height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    image-rendering: crisp-edges;
+    filter: drop-shadow(1px, 1px, 1px, black);
+    padding-bottom: 20px;
+
+}
+
+/* buttons! */
+.subscribe-button {
+    background-color: rgb(0,0,0);
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.15s; /*transition property doesn't need to go into the hover*/
+    
+}
+
+.subscribe-button:hover { /* psuedoclass */
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.subscribe-button:active {
+    opacity: 0.4;
+}
+.church-button {
+    margin-top: 10px;
+    background-color:rgb(121, 82, 179);
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.15s, box-shadow 0.15s;
+
+}
+
+.church-button:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.church-button:active {
+    opacity: 0.4;
+
+}
+
+
+.amazon-button {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    background-color: rgb(255, 216, 20);
+    color: rgb(15, 17, 17);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 75px;
+    cursor: pointer;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    border-color: #FCD200
+    
+
+}
+
+
+.amazon-button:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.amazon-button:active {
+    opacity: 0.4;
+
+}
+
+
+.linkedin-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 75px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s, box-shadow 0.15s;
+
+}
+
+.linkedin-button:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.linkedin-button:active {
+    opacity: 0.4;
+
+}
+
+.github-button {
+    background-color: rgb(46, 146, 79);
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s, box-shadow 0.15s;
+}
+
+.github-button:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.github-button:active {
+    opacity: 0.4;
+
+}
+
+.aboutme {
+    color: #dfa147;
+
+}
+
+#aboutp {
+    text-align: justify;
+    background-color: #6e6e6e;
+    border: 5px solid #504c4b;
+}
+
+.gospel {
+    color: #dfa147;
+}
+
+#newsp {
+    text-align: justify;
+    border: 5px solid #504c4b;
+    background-color: #6e6e6e;
+
+}
+
+.linkedin {
+    color: #dfa147;
+}
+
+.github {
+    color: #dfa147;
+}
+
+#gitp {
+    text-align: justify;
+    border: 5px solid #3a3736;
+    background-color: #6e6e6e;
+}
+
+.portfolio {
+    color: #dfa147;
+}
+
+#portp {
+    text-align: justify;
+    border: 5px solid #3a3736;
+    background-color: #6e6e6e;
+}
+
+.footer {
+    text-align: justify;
+    border: 5px solid #3a3736;
+    background-color: #6e6e6e;
+}
