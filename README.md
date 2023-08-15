@@ -1,2 +1,2 @@
 # Squog-The-Scriptor.github.io
-Portfolio Website Under Construction - Updated overtime
+Portfolio Website 1st Attempt
